@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header,
+.hero {
+    padding: 0px 200px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
